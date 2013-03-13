@@ -8,7 +8,7 @@
 
 package scala.react
 
-import scala.collection.JavaConversions._
+import scala.collection.convert.Wrappers._
 
 /*trait Dependents {
   def foreach[U](f: Any => U): Unit {
