@@ -4,9 +4,9 @@ organization := "scala"
 
 version := "1.0"
 
-scalaVersion := "2.9.1"
+scalaVersion := "2.10.0"
 
-addCompilerPlugin("org.scala-lang.plugins" % "continuations" % "2.9.1")
+addCompilerPlugin("org.scala-lang.plugins" % "continuations" % "2.10.0")
 
 scalacOptions ++= Seq(
 	"-deprecation",
@@ -15,7 +15,7 @@ scalacOptions ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-	"org.scalatest" %% "scalatest" % "1.6.1" % "test",
+	"org.scalatest" % "scalatest_2.10" % "1.9.1" % "test",
 	"junit" % "junit" % "4.10" % "test"
 )
 
